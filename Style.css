@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header.dropdown_menu {
+    height: 70px;
+    background-color: #5C946E;
+    padding: 10px 0;
+}
+
+.menu_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.menu_icon {
+    font-size: 2.4em;
+    color: white;
+    line-height: 50px;
+}
