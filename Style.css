@@ -10,7 +10,7 @@ body {
 
 header.dropdown_menu {
     height: 70px;
-    background-color: #22292F;
+    background-color: #337357;
     padding: 10px 0;
 }
 
@@ -48,14 +48,14 @@ header.dropdown_menu {
 .menu_list ul li a {
     display: inline-block;
     padding: 12px;
-    color: #DAE1E7;
+    color: white;
     text-decoration: none;
     letter-spacing: 0.05em;
 }
 
 .menu_list ul li a:hover,
 .menu_list ul li a:focus {
-    color: #eb6f4a;
+    color: lightgray;
 }
 
 #checkbox {
@@ -66,5 +66,5 @@ header.dropdown_menu {
     max-height: 400px;
     padding: 15px 0;
     transition: all 0.5s;
-    background-color: #3D4852;
+    background-color: #6D9F71;
 }
