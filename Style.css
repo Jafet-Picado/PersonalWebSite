@@ -1,12 +1,16 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
 }
 
 header.dropdown_menu {
     height: 70px;
-    background-color: #5C946E;
+    background-color: #22292F;
     padding: 10px 0;
 }
 
@@ -18,6 +22,49 @@ header.dropdown_menu {
 
 .menu_icon {
     font-size: 2.4em;
-    color: white;
+    color: #ffffff;
     line-height: 50px;
+}
+
+.menu_list {
+    position: absolute;
+    background-color: transparent;
+    top: 70px;
+    left: 0;
+    width: 100%;
+}
+
+.menu_list ul {
+    list-style-type: none;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.menu_list ul li {
+    padding: 0 15px;
+}
+
+.menu_list ul li a {
+    display: inline-block;
+    padding: 12px;
+    color: #DAE1E7;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+}
+
+.menu_list ul li a:hover,
+.menu_list ul li a:focus {
+    color: #eb6f4a;
+}
+
+#checkbox {
+    display: none;
+}
+
+#checkbox:checked ~ .menu_list ul {
+    max-height: 400px;
+    padding: 15px 0;
+    transition: all 0.5s;
+    background-color: #3D4852;
 }
