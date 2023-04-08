@@ -12,27 +12,7 @@ body {
     background-size: 1870px;    
 }
 
-.dropdown_menu {
-    position: fixed;
-    top: 0; left: 0; right: 0;
-    padding: 20px;
-    background: #fff;
-    box-shadow: 0 5px 10px rgba(0,0,0,.1);
-    padding: 0 7%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 1000;
-}
-
-.logo_wrapper {
-    align-items: center;
-    display: inline-flex;
-    left: 0;
-}
-
 .website_name{
-    inline-size: 150px;
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
@@ -48,25 +28,24 @@ body {
 
 .menu {
     position: absolute;
-    top: 100%; left: 0; right: 0;  
-    background: #fff;    
-    border-top: 2px solid rgba(0,0,0,.1);
-    display: none;
-}
-
-.menu ul {
     list-style-type: none;
-    font-weight: bold;     
-    padding: 0;    
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0;
     margin: 0;
+    background: #fff;
+    width: 100%;
+    left: 0;
+    height: 800px;
 }
 
-.menu ul li {
-    position: relative;    
+.menu li {
+    position: relative; 
     width: 100%;    
+    border-top: 1px solid rgba(0,0,0,.1);
 }
 
-.menu ul li a {
+.menu li a {
     font-size: 20px;
     padding: 20px;
     color: #333;
@@ -74,14 +53,14 @@ body {
     text-decoration: none;
 }
 
-.menu ul li a:hover {
+.menu li a:hover {
     background: #333;
     color: #fff;   
 }
 
 
 
-.menu ul li ul {
+.menu li ul {
     position: relative;    
     left: 0;
     width: 100%;
@@ -93,31 +72,10 @@ body {
     display: none;
 }
 
-.menu ul li ul li {
+.menu li ul li {
     background: #eee;
     width: 100%;
     border-top: 2px solid rgba(0,0,0,.1);
-}
-
-
-.menu ul li:focus-within > ul,
-.menu ul li:hover > ul {
-    display: initial;
-}
-
-.menu_icon {
-    font-size: 2.4em;
-    color: #333;
-    line-height: 50px;    
-}
-
-#checkbox {
-    display: none;
-}
-#checkbox:checked ~ .menu {    
-    padding: 15px 0;
-    display: initial;
-    transition: all 0.5s;    
 }
 
 @media (min-width: 940px) { 
@@ -126,36 +84,28 @@ body {
         background-size: cover;
     }
 
-    .website_name{
-        inline-size: 100px;
-    }
-
-    .menu_icon {
-        display: none;
-    }
-
-    .dropdown_menu {
-        padding: 0 15px;
-    }
-
-    .menu {
-        display: initial;
+    .menu {        
+        left: 25%;
+        display: inline-flex;
+        inline-size: 150px;
         position: relative;
-        padding: 0 0 0 15%;
-        border-top: none;
+        width: auto;
+        height: auto;
+        background: fixed;               
     }
 
-    .menu ul li {
+    .menu li {
         width: auto;
         float: left;
+        border-top: none; 
     }
 
-    .menu ul li ul {
+    .menu li ul {
         position: absolute;
         width: 185px;
     }
 
-    .menu ul li ul li {
+    .menu li ul li {
         background: #fff;
     }
 }
