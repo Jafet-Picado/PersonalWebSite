@@ -9,38 +9,39 @@
 body {
     min-height: 100vh;
     background:url(../images/background.jpg);
-    background-size: 1870px;    
+    background-size: cover;
 }
 
 .website_name{
     font-size: 20px;
     font-weight: bold;
-    text-decoration: none;
     color: #333;
     cursor: pointer;
 }
 
 .logo {
-    align-self: center;
     height: 60px;
     cursor: pointer;
 }
 
+.navigationHeader {
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
 .menu {
     position: absolute;
-    list-style-type: none;
     font-size: 18px;
     font-weight: bold;
-    padding: 0;
-    margin: 0;
+    color: #333;
     background: #fff;
     width: 100%;
     left: 0;
-    height: 800px;
+    height: 800px;    
 }
 
 .menu li {
-    position: relative; 
+    position: relative;
+    align-items: center; 
     width: 100%;    
     border-top: 1px solid rgba(0,0,0,.1);
 }
@@ -49,63 +50,38 @@ body {
     font-size: 20px;
     padding: 20px;
     color: #333;
-    display: block;
-    text-decoration: none;
+}
+
+.menu ul li {
+    background: #fff;
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,.1);
 }
 
 .menu li a:hover {
     background: #333;
-    color: #fff;   
+    color: #fff;;
 }
 
-
-
-.menu li ul {
-    position: relative;    
-    left: 0;
-    width: 100%;
-    background: #fff;  
-    font-size: 16px;
-    font-weight: normal;
-    padding: 0;
-    margin: 0;
-    display: none;
-}
-
-.menu li ul li {
-    background: #eee;
-    width: 100%;
-    border-top: 2px solid rgba(0,0,0,.1);
+.menu ul li a:hover {
+    background: #333;
+    color: #fff;;
 }
 
 @media (min-width: 940px) { 
 
-    body {
-        background-size: cover;
-    }
-
-    .menu {        
+    .menu {   
+        position: relative;     
         left: 25%;
-        display: inline-flex;
-        inline-size: 150px;
-        position: relative;
+        display: inline-flex;                 
         width: auto;
         height: auto;
-        background: fixed;               
+        background: fixed;             
     }
 
     .menu li {
         width: auto;
         float: left;
         border-top: none; 
-    }
-
-    .menu li ul {
-        position: absolute;
-        width: 185px;
-    }
-
-    .menu li ul li {
-        background: #fff;
     }
 }
