@@ -25,9 +25,25 @@ body {
     z-index: 1000;
 }
 
+.logo_wrapper {
+    align-items: center;
+    display: inline-flex;
+    left: 0;
+}
+
+.website_name{
+    inline-size: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+
 .logo {
     align-self: center;
     height: 60px;
+    cursor: pointer;
 }
 
 .menu {
@@ -110,6 +126,10 @@ body {
         background-size: cover;
     }
 
+    .website_name{
+        inline-size: 100px;
+    }
+
     .menu_icon {
         display: none;
     }
@@ -121,7 +141,7 @@ body {
     .menu {
         display: initial;
         position: relative;
-        padding: 0 0 0 20%;
+        padding: 0 0 0 15%;
         border-top: none;
     }
 
