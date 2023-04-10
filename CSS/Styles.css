@@ -11,6 +11,7 @@ body {
     min-height: 100vh;
     background:whitesmoke;
     flex-direction:column;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -171,6 +172,30 @@ h1 {
     flex: 1;
 }
 
+.wrapper .row .accordionColumn {
+    padding: 0 20px 40px 20px;
+}
+
+.wrapper .row .imageColumn {
+    display: none;
+}
+
+.accordion-item h2 button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.accordion-item h2 img {
+    height: 50px;
+    padding: 0 20px;
+}
+
+.accordion-body p {
+    padding: 5px;
+    text-align: justify;
+    text-indent: 10px;
+}
+
 @media (min-width: 940px) { 
 
     .menu {   
@@ -200,5 +225,18 @@ h1 {
         margin-left: auto;
         margin-right: auto;
         text-indent: 40px;
+    }
+
+    .wrapper .row .accordionColumn {
+        padding-left: 80px;        
+    }
+
+    .wrapper .row .imageColumn {
+        display: initial;
+    }
+
+    .wrapper .row .imageColumn img {
+        height: 350px;
+        padding: 0 0 20px 50px;        
     }
 }
