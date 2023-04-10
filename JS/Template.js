@@ -20,22 +20,22 @@ header.innerHTML = `
                         <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Objetivos</a>
+                        <a class="nav-link" href="Goals.html">Objetivos</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Computación</a>
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Computación</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">                                    
-                            <li><a class="dropdown-item" href="#">¿Por qué computación?</a></li>
-                            <li><a class="dropdown-item" href="#">Cursos preferidos</a></li>
-                            <li><a class="dropdown-item" href="#">Mis profesores y compañeros</a></li>
-                            <li><a class="dropdown-item" href="#">Descargas</a></li>
+                            <li><a class="dropdown-item" href="WhyIS.html">¿Por qué computación?</a></li>
+                            <li><a class="dropdown-item" href="Courses.html">Cursos preferidos</a></li>
+                            <li><a class="dropdown-item" href="People.html">Mis profesores y compañeros</a></li>
+                            <li><a class="dropdown-item" href="Downloads.html">Descargas</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pasatiempos</a>
+                        <a class="nav-link" href="Hobbies.html">Pasatiempos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Acerca de este sitio</a>
+                        <a class="nav-link" href="About.html">Acerca de este sitio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="Contact.html">Contacto</a>
