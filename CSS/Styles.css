@@ -67,14 +67,15 @@ h1 {
 }
 
 .menu {
-    position: absolute;
+    position: absolute;     
     font-size: 18px;
     font-weight: bold;
     color: #333;
     background: #fff;
     width: 100%;
     left: 0;
-    height: 800px;    
+    height: 800px;
+    z-index: 999;
 }
 
 .menu li {
@@ -214,6 +215,29 @@ h1 {
     padding: 10px 0 30px;
 }
 
+.wrapper .accordionHobbies {
+    padding: 0 0 40px;
+}
+
+.wrapper .accordion .accordion-item .accordion-body .hobby {
+    text-align: center;        
+}
+
+.wrapper .accordion .accordion-item .accordion-body .hobby a {
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+.accordion-header .accordion-button img {
+    mix-blend-mode: multiply;
+}
+
+.hobbyIcon {
+    height: 30px;
+}
 
 @media (min-width: 768px) { 
 
@@ -269,5 +293,10 @@ h1 {
 
     .wrapper .row .col .card {
         height: 350px;
+    }
+
+    .wrapper .accordion .accordion-item .accordion-body .hobby a {
+        font-size: 18px;
+        padding: 0 20px;
     }
 }
