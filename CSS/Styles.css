@@ -196,7 +196,26 @@ h1 {
     text-indent: 10px;
 }
 
-@media (min-width: 940px) { 
+.wrapper .card-group .card img {
+    height: 300px;
+}
+
+.wrapper .card-group .card .card-body {
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.wrapper .card-group .card .card-text,
+.wrapper .row .col .card .card-text {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.wrapper .row {
+    padding: 10px 0 30px;
+}
+
+
+@media (min-width: 768px) { 
 
     .menu {   
         position: relative;     
@@ -236,7 +255,19 @@ h1 {
     }
 
     .wrapper .row .imageColumn img {
-        height: 350px;
+        height: 400px;
         padding: 0 0 20px 50px;        
+    }
+
+    .wrapper .card-group {
+        padding: 0 0 40px;
+    }
+
+    .wrapper .row {
+        justify-content: center;
+    }
+
+    .wrapper .row .col .card {
+        height: 350px;
     }
 }
