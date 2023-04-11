@@ -239,6 +239,18 @@ h1 {
     height: 30px;
 }
 
+.wrapper .list-group {
+    text-align: center;
+}
+
+.wrapper .list-group .list-group-item a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
 @media (min-width: 768px) { 
 
     .menu {   
