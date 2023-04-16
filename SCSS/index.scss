@@ -10,7 +10,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
+  
     .indexCard {
         @include make-container();
         @extend .container-fluid;
@@ -28,7 +28,8 @@
 
         p {
             font-size: 18px;
-            font-style: italic;
+            font-weight: 600;
+            font-style: oblique;
         }
     }
 
