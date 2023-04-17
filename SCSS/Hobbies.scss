@@ -1,0 +1,79 @@
+@import "../SCSS/General.scss";
+
+.wrapper {
+    @include make-container();
+    flex: 1;
+
+    #accordionHobbies {
+        @extend .accordion;
+        padding: 0 0 40px;        
+
+        .accordionHobbies-item {
+            @extend .accordion-item;
+
+            .accordionHobbies-header {
+                @extend .accordion-header;
+
+                >button {
+                    @extend .accordion-button;                    
+
+                    font-size: 18px;
+                    font-weight: bold;
+
+                    img {
+                        padding: 0 10px 0 0;
+                        mix-blend-mode: multiply;
+                        height: 50px;
+                    }
+                }
+            }
+
+            >div {
+                @extend .accordion-collapse;
+                @extend .collapse;
+
+                .accordionHobbies-body {
+                    @extend .accordion-body;
+                    
+                    p {
+                        text-align: justify;
+                        text-indent: 20px;
+                    }
+
+                    .hobby {
+                        text-align: center;
+                        a {
+                            font-weight: 600;
+                            font-size: 16px;
+                            text-decoration: none;
+                            color: #333;
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .wrapper {
+        #accordionHobbies {
+            .accordionHobbies-item {
+                margin-left: auto;
+                margin-right: auto;
+                width: 80%;
+                >div {
+                    .accordionHobbies-body {
+                        .hobby {
+                            a {
+                                font-size: 18px;
+                                padding: 0 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
