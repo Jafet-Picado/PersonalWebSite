@@ -1,0 +1,57 @@
+@import "../SCSS/General.scss";
+
+.wrapper {
+    @include make-container();
+    flex: 1;
+
+    > h1 {
+        img {
+            height: 50px;
+        }
+    }
+
+    >div {
+        @extend .row,
+                .row-cols-1,
+                .row-cols-md-3,
+                .g-4;
+        padding: 10px 0 30px;
+
+        > div {
+
+            .person-Card {
+                @extend .card;
+                @include my-custom-shadow();                
+
+                .person-Card-body {
+                    @extend .card-body;
+
+                    >h5 {
+                        @extend .card-title;
+                    }
+
+                    >p {
+                        @extend .card-text;
+
+                        text-align: justify;
+                        text-indent: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .wrapper {
+        >div {
+            justify-content: center;
+
+            > div {
+                .person-Card {
+                    height: 350px;
+                }
+            }
+        }
+    }
+}
