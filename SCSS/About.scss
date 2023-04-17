@@ -1,0 +1,16 @@
+@import "../SCSS/General.scss"; 
+
+@import "../SCSS/paragraph.scss";
+
+.wrapper {
+    flex: 1;
+
+    .informationParagraph {
+        h5 {
+            > img {
+                height: 50px;
+            }
+        }
+    }
+}
+ 
