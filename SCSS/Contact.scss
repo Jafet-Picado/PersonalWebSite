@@ -1,0 +1,21 @@
+@import "../SCSS/General.scss";
+
+@import "../SCSS/paragraph.scss";
+
+.wrapper {
+    flex: 1;  
+
+    .informationParagraph {
+        p {
+            > img {
+                height: 40px;
+            }
+
+            a {
+                > img {
+                    height: 50px;
+                }
+            }
+        }      
+    }
+}
