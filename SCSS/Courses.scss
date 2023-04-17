@@ -1,0 +1,51 @@
+@import "../SCSS/General.scss";
+
+.wrapper {
+    @include make-container();
+    flex: 1;
+
+    .courses-group {
+        @extend .card-group;
+        text-align: center;
+
+        .course-card {
+            @extend .card;
+
+            >img {
+                @extend .card-img-top;
+                height: 300px;
+            }
+
+            .course-card-body {
+                @extend .card-body;
+                border-top: 1px solid rgba(0, 0, 0, .1);
+
+                >h5 {
+                    @extend .card-title;
+                }
+
+                >p {
+                    @extend .card-text;
+                    text-align: justify;
+                    text-indent: 20px;
+                }
+            }
+
+            .course-card-footer {
+                @extend .card-footer;
+
+                > small {
+                    @extend .text-muted;
+                }
+            }            
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .wrapper {
+        .courses-group {
+            padding: 0 0 40px;
+        }
+    }
+}
