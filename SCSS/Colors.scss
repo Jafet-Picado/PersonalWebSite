@@ -2,3 +2,7 @@ $whitesmoke: whitesmoke;
 $whiteTransparency: #ffffffcb;
 $WhiteShade: #f7f7f7;
 $shadow: rgba(0,0,0,.1);
+
+@mixin my-custom-shadow($custom-shadow: 0 5px 10px $shadow) {
+    box-shadow: $custom-shadow;
+}
