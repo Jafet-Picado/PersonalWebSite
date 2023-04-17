@@ -1,6 +1,16 @@
-@import "../Bootstrap/node_modules/bootstrap/scss/bootstrap.scss";
-
 $black: #333;
+
+$navbar-brand-font-size: 1.25rem;
+
+$accordion-button-active-bg: $black;
+$accordion-button-active-color: #fff;
+$accordion-icon-active-color: $black;
+$accordion-button-focus-box-shadow: #fff;
+$accordion-icon-active-color: #fff;
+
+$list-group-border-color: $black;
+
+@import "../Bootstrap/node_modules/bootstrap/scss/bootstrap";
 
 @import "../SCSS/Colors.scss";
 
@@ -19,14 +29,13 @@ h1 {
 body {
     display: flex;
     min-height: 100vh;
-    height: 100vh;
     background: $whitesmoke;
     flex-direction: column;
     overflow-x: hidden;
 }
 
 .navigationHeader {
-    box-shadow: 0 5px 10px $shadow;
+    @include my-custom-shadow(); 
 }
 
 .customNavbar {
@@ -41,12 +50,11 @@ body {
 
         .website_brand {
             @extend .navbar-brand;
-            font-size: 20px;
             font-weight: bold;
             color: $black;
             cursor: pointer;
 
-            >img {
+            > img {
                 height: 60px;
                 cursor: pointer;
             }
@@ -152,7 +160,7 @@ body {
     width: 100%;
     overflow: hidden;
     line-height: 60px;
-    box-shadow: 0 -5px 20px -5px rgba(0, 0, 0, .2);
+    @include my-custom-shadow(0 -5px 20px -5px rgba(0, 0, 0, .2)); 
 
     background-color: $WhiteShade;
     color: $black;
@@ -197,6 +205,6 @@ body {
     }
 
     .customFooter {
-        display: block;
+        display: initial;
     }
 }
