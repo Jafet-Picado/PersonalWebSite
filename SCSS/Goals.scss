@@ -1,0 +1,92 @@
+@import "../SCSS/General.scss";
+
+@import "../SCSS/paragraph.scss";   
+
+.wrapper {
+    @include make-container();
+    flex: 1;
+
+    h1 {
+        > img {
+            height: 50px;
+        }
+    }
+
+    .customRow {
+        @include make-row();
+        align-content: center;
+        justify-content: center;
+        padding: 10px 0 30px;
+
+        .accordionColumn {
+            @include make-col();
+            @extend .col-md-6;
+
+            padding: 0 20px 40px 20px;
+
+            #accordionGoals {
+                @extend .accordion;
+
+                .accordion_item {
+                    @extend .accordion-item;
+
+                    h2 {
+                        @extend .accordion-header;
+
+                        > button {
+                            @extend .accordion-button;
+                            
+                            font-size: 18px;
+                            font-weight: bold;                            
+                        }                        
+
+                        img {
+                            height: 50px;
+                            padding: 0 20px;
+                        }
+                    }
+
+                    > div {                  
+                        @extend .accordion-collapse,
+                                .collapse;
+
+                        > div { 
+                            @extend .accordion-body;
+
+                            p {
+                                padding: 5px;
+                                text-align: justify;
+                                text-indent: 10px;
+                            }
+                        }
+                    }            
+                                        
+                }
+            }
+        }
+
+        .imageColumn {
+            display: none;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .wrapper {
+        .customRow {
+            width: 90%;
+            .accordionColumn {                
+                padding-left: 80px;
+            }
+ 
+            .imageColumn {
+                display: initial;
+
+                img {
+                    height: 400px;
+                    padding: 0 0 45px 50px;
+                }
+            }
+        }
+    }
+}
