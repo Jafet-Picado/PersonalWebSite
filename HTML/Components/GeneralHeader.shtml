@@ -1,0 +1,48 @@
+</head>
+
+<body>
+    <header class="navigationHeader">
+        <nav class="customNavbar">
+            <div class="navbarContainer">
+                <a class="website_brand" href="../index.html">
+                    <img src="../images/logo.png" alt="Logo">
+                    Jafet - WebSite
+                </a>
+                <button class="navbarButton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                </button>
+                <div id="navbarNav">
+                    <ul class="navbarMenu">
+                        <li>
+                            <a aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="Goals.html">Objetivos</a>
+                        </li>
+                        <li class="navDropdown">
+                            <a id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Computación
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a href="WhyIS.html">¿Por qué computación?</a></li>
+                                <li><a href="Courses.html">Cursos preferidos</a></li>
+                                <li><a href="People.html">Mis profesores y compañeros</a></li>
+                                <li><a href="Downloads.html">Descargas</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="Hobbies.html">Pasatiempos</a>
+
+                        </li>
+                        <li>
+                            <a href="About.html">Acerca de este sitio</a>
+                        </li>
+                        <li>
+                            <a href="Contact.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
