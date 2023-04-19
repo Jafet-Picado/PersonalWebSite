@@ -1,76 +1,12 @@
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="CSS/index.css">
-</head>
-
-<body>
-    <header class="navigationHeader">
-        <nav class="customNavbar">
-            <div class="navbarContainer">
-                <a class="website_brand" href="index.html">
-                    <img src="images/logo.png" alt="Logo">
-                    Jafet - WebSite                
-                </a>
-                <button class="navbarButton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span></span>
-                </button>
-                <div id="navbarNav">
-                    <ul class="navbarMenu">
-                        <li>
-                            <a aria-current="page" href="index.html">Inicio</a>
-                        </li>
-                        <li>
-                            <a href="HTML/Goals.html">Objetivos</a>
-                        </li>
-                        <li class="navDropdown">
-                            <a id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Computación
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a href="HTML/WhyIS.html">¿Por qué computación?</a></li>
-                                <li><a href="HTML/Courses.html">Cursos preferidos</a></li>
-                                <li><a href="HTML/People.html">Mis profesores y compañeros</a></li>
-                                <li><a href="HTML/Downloads.html">Descargas</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="HTML/Hobbies.html">Pasatiempos</a>
-                        </li>
-                        <li>
-                            <a href="HTML/About.html">Acerca de este sitio</a>
-                        </li>
-                        <li>
-                            <a href="HTML/Contact.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="indexBody">
-        <div class="indexCard">
-            <h5 class="card-title">Sitio Web Personal</h5>
-            <br>
-            <p class="card-text">Jafet Picado Quirós C05977 - Primer proyecto</p>
-        </div>
+<!--#set var="TITULO" value="Inicio" -->
+<!--#include virtual="HTML/Components/FirstHeader.shtml" -->
+<link rel="stylesheet" href="CSS/index.css">
+<!--#include virtual="HTML/Components/HeaderIndex.shtml" -->
+<div class="indexBody">
+    <div class="indexCard">
+        <h5 class="card-title">Sitio Web Personal</h5>
+        <br>
+        <p class="card-text">Jafet Picado Quirós C05977 - Primer proyecto</p>
     </div>
-    <footer class="customFooter">
-        <span class="footerContent">
-            Autor: Jafet Picado Quirós C05977
-            <br>
-            <a href="mailto:jafet.picado@ucr.ac.cr">jafet.picado@ucr.ac.cr</a>
-        </span>
-    </footer>
-
-    <script src="Bootstrap/node_modules/@popperjs/core/dist/umd/popper.js"></script>
-    <script src="Bootstrap/node_modules/bootstrap/dist/js/bootstrap.js"></script>
-</body>
-
-</html>
+</div>
+<!--#include virtual="HTML/Components/FooterIndex.shtml" -->
