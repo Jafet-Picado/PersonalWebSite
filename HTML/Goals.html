@@ -1,169 +1,101 @@
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mis objetivos</title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="../CSS/Goals.css">
-</head>
-
-<body>
-    <header class="navigationHeader">
-        <nav class="customNavbar">
-            <div class="navbarContainer">
-                <a class="website_brand" href="../index.html">
-                    <img src="../images/logo.png" alt="Logo">
-                    Jafet - WebSite                
-                </a>
-                <button class="navbarButton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span></span>
-                </button>
-                <div id="navbarNav">
-                    <ul class="navbarMenu">
-                        <li>
-                            <a aria-current="page" href="../index.html">Inicio</a>
-                        </li>
-                        <li>
-                            <a href="Goals.html">Objetivos</a>
-                        </li>
-                        <li class="navDropdown">
-                            <a id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Computación
-                            </a> 
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a href="WhyIS.html">¿Por qué computación?</a></li>
-                                <li><a href="Courses.html">Cursos preferidos</a></li>
-                                <li><a href="People.html">Mis profesores y compañeros</a></li>
-                                <li><a href="Downloads.html">Descargas</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="Hobbies.html">Pasatiempos</a>
-                        </li>
-                        <li>
-                            <a href="About.html">Acerca de este sitio</a>
-                        </li>
-                        <li>
-                            <a href="Contact.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="wrapper">
-        <h1>
-            <img src="../images/attilan_symbol.png" class="customIcon">
-            Mis Objetivos
-        </h1>
-        <div class="customRow">
-            <div class="accordionColumn">
-                <div id="accordionGoals">
-                    <div class="accordion_item">
-                        <h2 id="headingOne">
-                            <button class="collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                <img src="../images/spiderman_goals.png">
-                                Objetivo #1
-                            </button>
-                        </h2>
-                        <div id="collapseOne" aria-labelledby="headingOne"
-                            data-bs-parent="#accordionGoals">
-                            <div class="accordion-body">
-                                <strong>Mi primer objetivo.</strong>
-                                <p>
-                                    Considero que uno de mis objetivos más importantes actualmente
-                                    es terminar la carrera lo más pronto posible y comenzar a trabajar
-                                    de tal manera que pueda ayudar económicamente en mi hogar ya que
-                                    somos una familia de escasos recursos.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion_item">
-                        <h2 id="headingTwo">
-                            <button class="collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                <img src="../images/spiderman_goals.png">
-                                Objetivo #2
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" aria-labelledby="headingTwo"
-                            data-bs-parent="#accordionGoals">
-                            <div class="accordion_body">
-                                <strong>Mi segundo objetivo.</strong>
-                                <p>
-                                    Un objetivo personal que puede no ser tan importante como el anterior
-                                    es el de aprender, me considero una persona que adquiere conocimiento
-                                    fácilmente por lo que me gusta aprender de todos los temas posibles
-                                    como una esponja de conocimiento. Uno de los temas en los que estoy
-                                    muy interesado son los idiomas, quisiera aprender múltiples idiomas.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion_item">
-                        <h2 id="headingThree">
-                            <button class="collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                <img src="../images/spiderman_goals.png">
-                                Objetivo #3
-                            </button>
-                        </h2>
-                        <div id="collapseThree" aria-labelledby="headingThree"
-                            data-bs-parent="#accordionGoals">
-                            <div class="accordion_body">
-                                <strong>Mi tercer objetivo.</strong>
-                                <p>
-                                    Desde un punto de vista profesional, quisiera desarrollarme como
-                                    programador principalmente ya que esto es lo que me motiva en la carrera
-                                    por lo que, me gustaría poder trabajar como programador en una empresa FAANG
-                                    o de importancia en el ámbito de desarrollo tecnológico.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion_item">
-                        <h2 id="headingFour">
-                            <button class="collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                <img src="../images/spiderman_goals.png">
-                                Objetivo #4
-                            </button>
-                        </h2>
-                        <div id="collapseFour" aria-labelledby="headingFour"
-                            data-bs-parent="#accordionGoals">
-                            <div class="accordion_body">
-                                <strong>Mi cuarto objetivo.</strong>
-                                <p>
-                                    Y por último, un objetivo asociado en parte al aprendizaje de idiomas
-                                    es el hecho de que me gustaría viajar a múltiples países, de ser
-                                    posible conocer gran parte de los países del mundo, de tal manera que
-                                    obtenga conocimiento de muchísimas culturas a lo largo del planeta.
-                                </p>
-                            </div>
+<!--#set var="TITULO" value="Mis objetivos" -->
+<!--#include virtual="Components/FirstHeader.shtml" -->
+<link rel="stylesheet" href="../CSS/Goals.css">
+<!--#include virtual="Components/GeneralHeader.shtml" -->
+<div class="wrapper">
+    <h1>
+        <img src="../images/attilan_symbol.png" class="customIcon">
+        Mis Objetivos
+    </h1>
+    <div class="customRow">
+        <div class="accordionColumn">
+            <div id="accordionGoals">
+                <div class="accordion_item">
+                    <h2 id="headingOne">
+                        <button class="collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                            aria-expanded="false" aria-controls="collapseOne">
+                            <img src="../images/spiderman_goals.png">
+                            Objetivo #1
+                        </button>
+                    </h2>
+                    <div id="collapseOne" aria-labelledby="headingOne" data-bs-parent="#accordionGoals">
+                        <div class="accordion_body">
+                            <strong>Mi primer objetivo.</strong>
+                            <p>
+                                Considero que uno de mis objetivos más importantes actualmente
+                                es terminar la carrera lo más pronto posible y comenzar a trabajar
+                                de tal manera que pueda ayudar económicamente en mi hogar ya que
+                                somos una familia de escasos recursos.
+                            </p>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="imageColumn">
-                <img src="../images/black_bolt.png">
+                <div class="accordion_item">
+                    <h2 id="headingTwo">
+                        <button class="collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                            aria-expanded="false" aria-controls="collapseTwo">
+                            <img src="../images/spiderman_goals.png">
+                            Objetivo #2
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" aria-labelledby="headingTwo" data-bs-parent="#accordionGoals">
+                        <div class="accordion_body">
+                            <strong>Mi segundo objetivo.</strong>
+                            <p>
+                                Un objetivo personal que puede no ser tan importante como el anterior
+                                es el de aprender, me considero una persona que adquiere conocimiento
+                                fácilmente por lo que me gusta aprender de todos los temas posibles
+                                como una esponja de conocimiento. Uno de los temas en los que estoy
+                                muy interesado son los idiomas, quisiera aprender múltiples idiomas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion_item">
+                    <h2 id="headingThree">
+                        <button class="collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <img src="../images/spiderman_goals.png">
+                            Objetivo #3
+                        </button>
+                    </h2>
+                    <div id="collapseThree" aria-labelledby="headingThree" data-bs-parent="#accordionGoals">
+                        <div class="accordion_body">
+                            <strong>Mi tercer objetivo.</strong>
+                            <p>
+                                Desde un punto de vista profesional, quisiera desarrollarme como
+                                programador principalmente ya que esto es lo que me motiva en la carrera
+                                por lo que, me gustaría poder trabajar como programador en una empresa FAANG
+                                o de importancia en el ámbito de desarrollo tecnológico.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion_item">
+                    <h2 id="headingFour">
+                        <button class="collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                            aria-expanded="false" aria-controls="collapseFour">
+                            <img src="../images/spiderman_goals.png">
+                            Objetivo #4
+                        </button>
+                    </h2>
+                    <div id="collapseFour" aria-labelledby="headingFour" data-bs-parent="#accordionGoals">
+                        <div class="accordion_body">
+                            <strong>Mi cuarto objetivo.</strong>
+                            <p>
+                                Y por último, un objetivo asociado en parte al aprendizaje de idiomas
+                                es el hecho de que me gustaría viajar a múltiples países, de ser
+                                posible conocer gran parte de los países del mundo, de tal manera que
+                                obtenga conocimiento de muchísimas culturas a lo largo del planeta.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        <div class="imageColumn">
+            <img src="../images/black_bolt.png">
+        </div>
     </div>
-    <footer class="customFooter">
-        <span class="footerContent">
-            Autor: Jafet Picado Quirós C05977
-            <br>
-            <a href="mailto:jafet.picado@ucr.ac.cr">jafet.picado@ucr.ac.cr</a>
-        </span>
-    </footer>
-
-    <script src="../Bootstrap/node_modules/@popperjs/core/dist/umd/popper.js"></script>
-    <script src="../Bootstrap/node_modules/bootstrap/dist/js/bootstrap.js"></script>
-</body>
-
-</html>
+</div>
+<!--#include virtual="Components/GeneralFooter.shtml" -->

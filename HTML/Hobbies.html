@@ -1,230 +1,162 @@
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pasatiempos</title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="../CSS/Hobbies.css">
-</head>
-
-<body>
-    <header class="navigationHeader">
-        <nav class="customNavbar">
-            <div class="navbarContainer">
-                <a class="website_brand" href="../index.html">
-                    <img src="../images/logo.png" alt="Logo">
-                    Jafet - WebSite                
-                </a>
-                <button class="navbarButton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span></span>
+<!--#set var="TITULO" value="Pasatiempos" -->
+<!--#include virtual="Components/FirstHeader.shtml" -->
+<link rel="stylesheet" href="../CSS/Hobbies.css">
+<!--#include virtual="Components/GeneralHeader.shtml" -->
+<div class="wrapper">
+    <h1>
+        Mis pasatiempos
+    </h1>
+    <div class="accordionHobbies" id="accordionHobbies">
+        <div class="accordionHobbies-item">
+            <h2 class="accordionHobbies-header" id="headingOne">
+                <button class="collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="false" aria-controls="collapseOne">
+                    <img src="../images/gow.png">
+                    Videojuegos
                 </button>
-                <div id="navbarNav">
-                    <ul class="navbarMenu">
-                        <li>
-                            <a aria-current="page" href="../index.html">Inicio</a>
-                        </li>
-                        <li>
-                            <a href="Goals.html">Objetivos</a>
-                        </li>
-                        <li class="navDropdown">
-                            <a id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Computación
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a href="WhyIS.html">¿Por qué computación?</a></li>
-                                <li><a href="Courses.html">Cursos preferidos</a></li>
-                                <li><a href="People.html">Mis profesores y compañeros</a></li>
-                                <li><a href="Downloads.html">Descargas</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="Hobbies.html">Pasatiempos</a>
-                        </li>
-                        <li>
-                            <a href="About.html">Acerca de este sitio</a>
-                        </li>
-                        <li>
-                            <a href="Contact.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="wrapper">
-        <h1>
-            Mis pasatiempos
-        </h1>
-        <div class="accordionHobbies" id="accordionHobbies">
-            <div class="accordionHobbies-item">
-                <h2 class="accordionHobbies-header" id="headingOne">
-                    <button class="collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                        <img src="../images/gow.png">
-                        Videojuegos
-                    </button>
-                </h2>
-                <div id="collapseOne" aria-labelledby="headingOne"
-                    data-bs-parent="#accordionHobbies">
-                    <div class="accordionHobbies-body">
-                        <p>
-                            Considero que los videojuegos son mi mayor pasatiempo, he jugado desde
-                            que soy un niño hasta mi adultez y no parece que esto se vaya a detener, una
-                            de mis pasiones con respecto a los videojuegos es el conseguir todos los trofeos
-                            del juego o "platinarlo", puedo pasar horas de horas jugando sin interrupciones.
-                            Algunos de mis videojuegos favoritos son:
-                        </p>
-                        <div class="hobby">
-                            <a class="website_name navbar-brand" href="https://youtu.be/R-gvdi-rmJY">
-                                Batman: Arkham Knight
-                                <img src="../images/youtube.png" class="hobbyIcon">
-                            </a>
-                            <a class="website_name navbar-brand" href="https://youtu.be/vtFhDrMIZjE">
-                                God of War: Ragnarök
-                                <img src="../images/youtube.png" class="hobbyIcon">
-                            </a>
-                            <a class="website_name navbar-brand" href="https://youtu.be/rXMX4YJ7Lks">
-                                Sekiro
-                                <img src="../images/youtube.png" class="hobbyIcon">
-                            </a>
-                            <a class="website_name navbar-brand" href="https://youtu.be/q4GdJVvdxss ">
-                                Spider-Man
-                                <img src="../images/youtube.png" class="hobbyIcon">
-                            </a>
-                        </div>
+            </h2>
+            <div id="collapseOne" aria-labelledby="headingOne" data-bs-parent="#accordionHobbies">
+                <div class="accordionHobbies-body">
+                    <p>
+                        Considero que los videojuegos son mi mayor pasatiempo, he jugado desde
+                        que soy un niño hasta mi adultez y no parece que esto se vaya a detener, una
+                        de mis pasiones con respecto a los videojuegos es el conseguir todos los trofeos
+                        del juego o "platinarlo", puedo pasar horas de horas jugando sin interrupciones.
+                        Algunos de mis videojuegos favoritos son:
+                    </p>
+                    <div class="hobby">
+                        <a class="website_name navbar-brand" href="https://youtu.be/R-gvdi-rmJY">
+                            Batman: Arkham Knight
+                            <img src="../images/youtube.png" class="hobbyIcon">
+                        </a>
+                        <a class="website_name navbar-brand" href="https://youtu.be/vtFhDrMIZjE">
+                            God of War: Ragnarök
+                            <img src="../images/youtube.png" class="hobbyIcon">
+                        </a>
+                        <a class="website_name navbar-brand" href="https://youtu.be/rXMX4YJ7Lks">
+                            Sekiro
+                            <img src="../images/youtube.png" class="hobbyIcon">
+                        </a>
+                        <a class="website_name navbar-brand" href="https://youtu.be/q4GdJVvdxss ">
+                            Spider-Man
+                            <img src="../images/youtube.png" class="hobbyIcon">
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="accordionHobbies-item">
-                <h2 class="accordionHobbies-header" id="headingTwo">
-                    <button class="collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        <img src="../images/avatar.jpg">
-                        Películas y Series
-                    </button>
-                </h2>
-                <div id="collapseTwo" aria-labelledby="headingTwo"
-                    data-bs-parent="#accordionHobbies">
-                    <div class="accordionHobbies-body">
-                        <p>
-                            Después de los videojuegos, las películas y las series son de mis pasatiempos
-                            favoritos, he visto un catalogo extenso de películas y series de todos los tipos y
-                            generos posibles, no tengo un gusto definido para estos ya que puede gustarme cualquiera
-                            pero se podría decir que el cine de superheroes es mi favorito, algunas de mis películas
-                            y series preferidas son:
-                        </p>
-                        <div class="hobby">
-                            <a class="website_name navbar-brand" href="https://youtu.be/5PSNL1qE6VY">
-                                Avatar
-                                <img src="../images/youtube.png" class="hobbyIcon">
-                            </a>
-                            <a class="website_name navbar-brand" href="https://youtu.be/IyZ0xetSb9s">
-                                Avatar: The Last Airbender
-                                <img src="../images/youtube.png" class="hobbyIcon">
-                            </a>
-                            <a class="website_name navbar-brand" href="https://youtu.be/faJAT35j5Ss">
-                                Brooklyn Nine-Nine
-                                <img src="../images/youtube.png" class="hobbyIcon">
-                            </a>
-                            <a class="website_name navbar-brand" href="https://youtu.be/FmXjNGVpXUc">
-                                Captain America: The Winter Soldier
-                                <img src="../images/youtube.png" class="hobbyIcon">
-                            </a>
-                            <a class="website_name navbar-brand" href="https://youtu.be/vM-Bja2Gy04">
-                                Zack Snyder's Justice League
-                                <img src="../images/youtube.png" class="hobbyIcon">
-                            </a>
-                        </div>
+        </div>
+        <div class="accordionHobbies-item">
+            <h2 class="accordionHobbies-header" id="headingTwo">
+                <button class="collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseTwo">
+                    <img src="../images/avatar.jpg">
+                    Películas y Series
+                </button>
+            </h2>
+            <div id="collapseTwo" aria-labelledby="headingTwo" data-bs-parent="#accordionHobbies">
+                <div class="accordionHobbies-body">
+                    <p>
+                        Después de los videojuegos, las películas y las series son de mis pasatiempos
+                        favoritos, he visto un catalogo extenso de películas y series de todos los tipos y
+                        generos posibles, no tengo un gusto definido para estos ya que puede gustarme cualquiera
+                        pero se podría decir que el cine de superheroes es mi favorito, algunas de mis películas
+                        y series preferidas son:
+                    </p>
+                    <div class="hobby">
+                        <a class="website_name navbar-brand" href="https://youtu.be/5PSNL1qE6VY">
+                            Avatar
+                            <img src="../images/youtube.png" class="hobbyIcon">
+                        </a>
+                        <a class="website_name navbar-brand" href="https://youtu.be/IyZ0xetSb9s">
+                            Avatar: The Last Airbender
+                            <img src="../images/youtube.png" class="hobbyIcon">
+                        </a>
+                        <a class="website_name navbar-brand" href="https://youtu.be/faJAT35j5Ss">
+                            Brooklyn Nine-Nine
+                            <img src="../images/youtube.png" class="hobbyIcon">
+                        </a>
+                        <a class="website_name navbar-brand" href="https://youtu.be/FmXjNGVpXUc">
+                            Captain America: The Winter Soldier
+                            <img src="../images/youtube.png" class="hobbyIcon">
+                        </a>
+                        <a class="website_name navbar-brand" href="https://youtu.be/vM-Bja2Gy04">
+                            Zack Snyder's Justice League
+                            <img src="../images/youtube.png" class="hobbyIcon">
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="accordionHobbies-item">
-                <h2 class="accordionHobbies-header" id="headingThree">
-                    <button class="collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        <img src="../images/ptad.jpg">
-                        Música
-                    </button>
-                </h2>
-                <div id="collapseThree" aria-labelledby="headingThree"
-                    data-bs-parent="#accordionHobbies">
-                    <div class="accordionHobbies-body">
-                        <p>
-                            La música es uno de mis pasatiempos preferidos, ya que recurro a esta
-                            para relajarme o para trabajar, hay momentos en los que sin música me cuesta
-                            trabajar, de igual manera día a día puedo llegar a escuchar horas de música
-                            ya sea por segmentos de tiempo o de golpe. Algunas de las bandas que más escucho son:
-                        </p>
-                        <div class="hobby">
-                            <a href="https://open.spotify.com/artist/3Ri4H12KFyu98LMjSoij5V?si=1A06Nu1cRGW-w5076x6Ifw">
-                                Bad Omens
-                                <img src="../images/spotify.png" class="hobbyIcon">
-                            </a>
-                            <a href="https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF?si=GhZ_sZO-Rg6mUXc5VGoDWw">
-                                Bring me the Horizon
-                                <img src="../images/spotify.png" class="hobbyIcon">
-                            </a>
-                            <a href="https://open.spotify.com/artist/20JZFwl6HVl6yg8a4H3ZqK?si=dLvgDwKBTRCY_ERebRdTNw">
-                                Panic! At the Disco
-                                <img src="../images/spotify.png" class="hobbyIcon">
-                            </a>
-                            <a href="https://open.spotify.com/artist/0IB0VjX9NSrGX6PjCXGVcq?si=r8JIcaYxQvKtLxjuABADbA">
-                                Raleigh Ritchie
-                                <img src="../images/spotify.png" class="hobbyIcon">
-                            </a>
-                        </div>
+        </div>
+        <div class="accordionHobbies-item">
+            <h2 class="accordionHobbies-header" id="headingThree">
+                <button class="collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                    aria-expanded="false" aria-controls="collapseThree">
+                    <img src="../images/ptad.jpg">
+                    Música
+                </button>
+            </h2>
+            <div id="collapseThree" aria-labelledby="headingThree" data-bs-parent="#accordionHobbies">
+                <div class="accordionHobbies-body">
+                    <p>
+                        La música es uno de mis pasatiempos preferidos, ya que recurro a esta
+                        para relajarme o para trabajar, hay momentos en los que sin música me cuesta
+                        trabajar, de igual manera día a día puedo llegar a escuchar horas de música
+                        ya sea por segmentos de tiempo o de golpe. Algunas de las bandas que más escucho son:
+                    </p>
+                    <div class="hobby">
+                        <a href="https://open.spotify.com/artist/3Ri4H12KFyu98LMjSoij5V?si=1A06Nu1cRGW-w5076x6Ifw">
+                            Bad Omens
+                            <img src="../images/spotify.png" class="hobbyIcon">
+                        </a>
+                        <a href="https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF?si=GhZ_sZO-Rg6mUXc5VGoDWw">
+                            Bring me the Horizon
+                            <img src="../images/spotify.png" class="hobbyIcon">
+                        </a>
+                        <a href="https://open.spotify.com/artist/20JZFwl6HVl6yg8a4H3ZqK?si=dLvgDwKBTRCY_ERebRdTNw">
+                            Panic! At the Disco
+                            <img src="../images/spotify.png" class="hobbyIcon">
+                        </a>
+                        <a href="https://open.spotify.com/artist/0IB0VjX9NSrGX6PjCXGVcq?si=r8JIcaYxQvKtLxjuABADbA">
+                            Raleigh Ritchie
+                            <img src="../images/spotify.png" class="hobbyIcon">
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="accordionHobbies-item">
-                <h2 class="accordionHobbies-header" id="headingFour">
-                    <button class="collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        <img src="../images/mistborn.jpg">
-                        Libros
-                    </button>
-                </h2>
-                <div id="collapseFour" aria-labelledby="headingFour"
-                    data-bs-parent="#accordionHobbies">
-                    <div class="accordionHobbies-body">
-                        <p>
-                            Y por último, los libros se han convertido en unos de mis pasatiempos en los
-                            últimos meses, aunque antes de eso ya había leído una cantidad considerable de libros
-                            por lo que se podría tomar como que estoy retomando uno de mis antiguos pasatiempos.
-                            Algunos de mis libros favoritos son:
-                        </p>
-                        <div class="hobby">
-                            <a href="https://a.co/d/eyO9Ny5">
-                                Mistborn: The Final Empire
-                                <img src="../images/amazon.png" class="hobbyIcon">
-                            </a>
-                            <a href="https://a.co/d/b3D45R1">
-                                The Lord of the Rings: The Return of the King
-                                <img src="../images/amazon.png" class="hobbyIcon">
-                            </a>
-                            <a href="https://a.co/d/4AaqeCa">
-                                The Silmarillion
-                                <img src="../images/amazon.png" class="hobbyIcon">
-                            </a>
-                        </div>
+        </div>
+        <div class="accordionHobbies-item">
+            <h2 class="accordionHobbies-header" id="headingFour">
+                <button class="collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                    aria-expanded="false" aria-controls="collapseFour">
+                    <img src="../images/mistborn.jpg">
+                    Libros
+                </button>
+            </h2>
+            <div id="collapseFour" aria-labelledby="headingFour" data-bs-parent="#accordionHobbies">
+                <div class="accordionHobbies-body">
+                    <p>
+                        Y por último, los libros se han convertido en unos de mis pasatiempos en los
+                        últimos meses, aunque antes de eso ya había leído una cantidad considerable de libros
+                        por lo que se podría tomar como que estoy retomando uno de mis antiguos pasatiempos.
+                        Algunos de mis libros favoritos son:
+                    </p>
+                    <div class="hobby">
+                        <a href="https://a.co/d/eyO9Ny5">
+                            Mistborn: The Final Empire
+                            <img src="../images/amazon.png" class="hobbyIcon">
+                        </a>
+                        <a href="https://a.co/d/b3D45R1">
+                            The Lord of the Rings: The Return of the King
+                            <img src="../images/amazon.png" class="hobbyIcon">
+                        </a>
+                        <a href="https://a.co/d/4AaqeCa">
+                            The Silmarillion
+                            <img src="../images/amazon.png" class="hobbyIcon">
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <footer class="customFooter">
-        <span class="footerContent">
-            Autor: Jafet Picado Quirós C05977
-            <br>
-            <a href="mailto:jafet.picado@ucr.ac.cr">jafet.picado@ucr.ac.cr</a>
-        </span>
-    </footer>
-
-    <script src="../Bootstrap/node_modules/@popperjs/core/dist/umd/popper.js"></script>
-    <script src="../Bootstrap/node_modules/bootstrap/dist/js/bootstrap.js"></script>
-</body>
-
-</html>
+</div>
+<!--#include virtual="Components/GeneralFooter.shtml" -->

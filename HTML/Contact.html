@@ -1,93 +1,29 @@
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="../CSS/Contact.css">
-</head>
-
-<body>
-    <header class="navigationHeader">
-        <nav class="customNavbar">
-            <div class="navbarContainer">
-                <a class="website_brand" href="../index.html">
-                    <img src="../images/logo.png" alt="Logo">
-                    Jafet - WebSite
-                </a>
-                <button class="navbarButton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span></span>
-                </button>
-                <div id="navbarNav">
-                    <ul class="navbarMenu">
-                        <li>
-                            <a aria-current="page" href="../index.html">Inicio</a>
-                        </li>
-                        <li>
-                            <a href="Goals.html">Objetivos</a>
-                        </li>
-                        <li class="navDropdown">
-                            <a id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Computación
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a href="WhyIS.html">¿Por qué computación?</a></li>
-                                <li><a href="Courses.html">Cursos preferidos</a></li>
-                                <li><a href="People.html">Mis profesores y compañeros</a></li>
-                                <li><a href="Downloads.html">Descargas</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="Hobbies.html">Pasatiempos</a>
-                        </li>
-                        <li>
-                            <a href="About.html">Acerca de este sitio</a>
-                        </li>
-                        <li>
-                            <a href="Contact.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="wrapper">
-        <h1>Contacto</h1>
-        <div class="informationParagraph">
-            <h5>Creador:</h5>
-            <p>
-                <img src="../images/superman.png">
-                Jafet Picado Quirós
-            </p>
-            <h5>Información de contacto:</h5>
-            <p>
-                <h6>Correo electrónico:</h6>
-                <a href="mailto:jafet.picado@ucr.ac.cr">jafet.picado@ucr.ac.cr</a>
-            </p>
-            <p>
-                <h6>Redes:</h6>
-                <a href="https://github.com/Jafet-Picado">
-                    <img src="../images/github.png">
-                </a>
-                <a href="https://www.linkedin.com/in/JafetPQ/">
-                    <img src="../images/linkedin.png">
-                </a>
-            </p>
-        </div>
+<!--#set var="TITULO" value="Contacto" -->
+<!--#include virtual="Components/FirstHeader.shtml" -->
+<link rel="stylesheet" href="../CSS/Contact.css">
+<!--#include virtual="Components/GeneralHeader.shtml" -->
+<div class="wrapper">
+    <h1>Contacto</h1>
+    <div class="informationParagraph">
+        <h5>Creador:</h5>
+        <p>
+            <img src="../images/superman.png">
+            Jafet Picado Quirós
+        </p>
+        <h5>Información de contacto:</h5>
+        <p>
+        <h6>Correo electrónico:</h6>
+        <a href="mailto:jafet.picado@ucr.ac.cr">jafet.picado@ucr.ac.cr</a>
+        </p>
+        <p>
+        <h6>Redes:</h6>
+        <a href="https://github.com/Jafet-Picado">
+            <img src="../images/github.png">
+        </a>
+        <a href="https://www.linkedin.com/in/JafetPQ/">
+            <img src="../images/linkedin.png">
+        </a>
+        </p>
     </div>
-    <footer class="customFooter">
-        <span class="footerContent">
-            Autor: Jafet Picado Quirós C05977
-            <br>
-            <a href="mailto:jafet.picado@ucr.ac.cr">jafet.picado@ucr.ac.cr</a>
-        </span>
-    </footer>
-
-    <script src="../Bootstrap/node_modules/@popperjs/core/dist/umd/popper.js"></script>
-    <script src="../Bootstrap/node_modules/bootstrap/dist/js/bootstrap.js"></script>
-</body>
-
-</html>
+</div>
+<!--#include virtual="Components/GeneralFooter.shtml" -->

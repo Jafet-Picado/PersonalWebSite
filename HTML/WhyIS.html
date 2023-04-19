@@ -1,91 +1,27 @@
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>¿Por qué computación?</title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="../CSS/WhyIS.css">
-</head>
-
-<body>
-    <header class="navigationHeader">
-        <nav class="customNavbar">
-            <div class="navbarContainer">
-                <a class="website_brand" href="../index.html">
-                    <img src="../images/logo.png" alt="Logo">
-                    Jafet - WebSite                
-                </a>
-                <button class="navbarButton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span></span>
-                </button>
-                <div id="navbarNav">
-                    <ul class="navbarMenu">
-                        <li>
-                            <a aria-current="page" href="../index.html">Inicio</a>
-                        </li>
-                        <li>
-                            <a href="Goals.html">Objetivos</a>
-                        </li>
-                        <li class="navDropdown">
-                            <a id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Computación
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a href="WhyIS.html">¿Por qué computación?</a></li>
-                                <li><a href="Courses.html">Cursos preferidos</a></li>
-                                <li><a href="People.html">Mis profesores y compañeros</a></li>
-                                <li><a href="Downloads.html">Descargas</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="Hobbies.html">Pasatiempos</a>
-                        </li>
-                        <li>
-                            <a href="About.html">Acerca de este sitio</a>
-                        </li>
-                        <li>
-                            <a href="Contact.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="wrapper">
-        <h1>¿Por qué computación?</h1>
-        <div class="informationParagraph">
-            <img src="../images/green_lantern.png" class="customIcon">
-            <p class="justifiedParagraph">
-                La principal pregunta que se puede encontrar con respecto a la carrera es:
-                ¿Por qué esta carrera y no otra? Y la respuesta es bastante sencilla, me gusta
-                la tecnología y todos los temas relacionados, desde muy pequeño tuve una facilidad de
-                aprendizaje con los dispositivos electrónicos y en especifico las computadoras.
-            </p>
-            <p class="justifiedParagraph">
-                Descubrí mi gusto sobre la programación y la ingeniería de software durante mis estudios
-                en el colegio técnico al que asistí y del cual recibí un técnico medio en Desarrollo de
-                Software.
-            </p>
-            <p class="justifiedParagraph">
-                Considero que la carrera es bastante complicada y he tenido momentos en los que
-                siento que no voy a poder pasar un curso o entregar un trabajo, pero es una parte de la
-                carrera que me ha enseñado muchisimo fuera de los temas de computación.
-            </p>
-        </div>
+<!--#set var="TITULO" value="Porqué Computación" -->
+<!--#include virtual="Components/FirstHeader.shtml" -->
+<link rel="stylesheet" href="../CSS/WhyIS.css">
+<!--#include virtual="Components/GeneralHeader.shtml" -->
+<div class="wrapper">
+    <h1>¿Por qué computación?</h1>
+    <div class="informationParagraph">
+        <img src="../images/green_lantern.png" class="customIcon">
+        <p class="justifiedParagraph">
+            La principal pregunta que se puede encontrar con respecto a la carrera es:
+            ¿Por qué esta carrera y no otra? Y la respuesta es bastante sencilla, me gusta
+            la tecnología y todos los temas relacionados, desde muy pequeño tuve una facilidad de
+            aprendizaje con los dispositivos electrónicos y en especifico las computadoras.
+        </p>
+        <p class="justifiedParagraph">
+            Descubrí mi gusto sobre la programación y la ingeniería de software durante mis estudios
+            en el colegio técnico al que asistí y del cual recibí un técnico medio en Desarrollo de
+            Software.
+        </p>
+        <p class="justifiedParagraph">
+            Considero que la carrera es bastante complicada y he tenido momentos en los que
+            siento que no voy a poder pasar un curso o entregar un trabajo, pero es una parte de la
+            carrera que me ha enseñado muchisimo fuera de los temas de computación.
+        </p>
     </div>
-    <footer class="customFooter">
-        <span class="footerContent">
-            Autor: Jafet Picado Quirós C05977
-            <br>
-            <a href="mailto:jafet.picado@ucr.ac.cr">jafet.picado@ucr.ac.cr</a>
-        </span>
-    </footer>
-
-    <script src="../Bootstrap/node_modules/@popperjs/core/dist/umd/popper.js"></script>
-    <script src="../Bootstrap/node_modules/bootstrap/dist/js/bootstrap.js"></script>
-</body>
-
-</html>
+</div>
+<!--#include virtual="Components/GeneralFooter.shtml" -->
