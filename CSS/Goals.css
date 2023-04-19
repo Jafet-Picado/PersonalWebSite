@@ -4455,7 +4455,7 @@ textarea.form-control-lg {
   border-bottom-left-radius: var(--bs-accordion-border-radius);
 }
 
-.accordion-body, .wrapper .customRow .accordionColumn #accordionGoals .accordion_item > div > div {
+.accordion-body, .wrapper .customRow .accordionColumn #accordionGoals .accordion_item > div > .accordion_body {
   padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
 }
 
@@ -11032,7 +11032,7 @@ body {
   height: 50px;
   padding: 0 20px;
 }
-.wrapper .customRow .accordionColumn #accordionGoals .accordion_item > div > div p {
+.wrapper .customRow .accordionColumn #accordionGoals .accordion_item > div > .accordion_body p {
   padding: 5px;
   text-align: justify;
   text-indent: 10px;
