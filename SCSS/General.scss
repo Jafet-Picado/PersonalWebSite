@@ -35,7 +35,7 @@ body {
 }
 
 .navigationHeader {
-    @include my-custom-shadow(); 
+    @include my-custom-shadow();
 }
 
 .customNavbar {
@@ -54,7 +54,7 @@ body {
             color: $black;
             cursor: pointer;
 
-            > img {
+            >img {
                 height: 60px;
                 cursor: pointer;
             }
@@ -160,7 +160,7 @@ body {
     width: 100%;
     overflow: hidden;
     line-height: 60px;
-    @include my-custom-shadow(0 -5px 20px -5px rgba(0, 0, 0, .2)); 
+    @include my-custom-shadow(0 -5px 20px -5px rgba(0, 0, 0, .2));
 
     background-color: $WhiteShade;
     color: $black;
