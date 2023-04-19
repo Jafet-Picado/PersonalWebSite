@@ -10,14 +10,14 @@
         }
     }
 
-    >div {
+    >div {        
         @extend .row,
                 .row-cols-1,
                 .row-cols-md-3,
                 .g-4;
         padding: 10px 0 30px;
-
-        > div {
+ 
+        > div {  
 
             .person-Card {
                 @extend .card;
