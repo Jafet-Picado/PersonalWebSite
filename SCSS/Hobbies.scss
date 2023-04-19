@@ -6,7 +6,7 @@
 
     #accordionHobbies {
         @extend .accordion;
-        padding: 0 0 40px;        
+        padding: 0 0 40px;
 
         .accordionHobbies-item {
             @extend .accordion-item;
@@ -15,7 +15,7 @@
                 @extend .accordion-header;
 
                 >button {
-                    @extend .accordion-button;                    
+                    @extend .accordion-button;
 
                     font-size: 18px;
                     font-weight: bold;
@@ -34,7 +34,7 @@
 
                 .accordionHobbies-body {
                     @extend .accordion-body;
-                    
+
                     p {
                         text-align: justify;
                         text-indent: 20px;
@@ -42,6 +42,7 @@
 
                     .hobby {
                         text-align: center;
+
                         a {
                             font-weight: 600;
                             font-size: 16px;
@@ -63,6 +64,7 @@
                 margin-left: auto;
                 margin-right: auto;
                 width: 80%;
+
                 >div {
                     .accordionHobbies-body {
                         .hobby {
