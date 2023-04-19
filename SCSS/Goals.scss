@@ -50,7 +50,7 @@
                         @extend .accordion-collapse,
                                 .collapse;
 
-                        > div { 
+                        > .accordion_body { 
                             @extend .accordion-body;
 
                             p {
@@ -59,8 +59,7 @@
                                 text-indent: 10px;
                             }
                         }
-                    }            
-                                        
+                    }                                                    
                 }
             }
         }
