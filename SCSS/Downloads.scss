@@ -3,25 +3,25 @@
 .wrapper {
     @include make-container();
     flex: 1;
-    
+
     .customList {
         @extend .list-group;
-        
 
-        text-align: center;  
+        text-align: center;
 
-        .customList-item { 
-            @extend .list-group-item;     
+        .customList-item {
+            @extend .list-group-item;
             margin-left: auto;
-            margin-right: auto;       
+            margin-right: auto;
             width: 80%;
+
             a {
                 text-decoration: none;
                 color: #333;
                 font-size: 18px;
                 font-weight: 600;
-                
-                > img {
+
+                >img {
                     padding-left: 10px;
                 }
             }
