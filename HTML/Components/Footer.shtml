@@ -1,0 +1,19 @@
+<footer class="customFooter">
+    <span class="footerContent">
+        Autor: Jafet Picado Quirós C05977
+        <br>
+        <a href="mailto:jafet.picado@ucr.ac.cr">jafet.picado@ucr.ac.cr</a>
+    </span>
+</footer>
+
+<!--#if expr="$OPTION = 1"-->
+<script src="Bootstrap/node_modules/@popperjs/core/dist/umd/popper.js"></script>
+<script src="Bootstrap/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<!--#else -->
+<script src="../Bootstrap/node_modules/@popperjs/core/dist/umd/popper.js"></script>
+<script src="../Bootstrap/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<!--#endif -->
+
+</body>
+
+</html>
