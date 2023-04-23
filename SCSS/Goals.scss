@@ -1,18 +1,11 @@
-@import "../SCSS/General.scss";
-
-@import "../SCSS/paragraph.scss";   
-
 .wrapper {
-    @include make-container();
-    flex: 1;
-
-    h1 {
+    .goalsTitle {
         > img {
             height: 50px;
         }
     }
 
-    .customRow {
+    .goalsRow {
         @include make-row();
         align-content: center;
         justify-content: center;
@@ -72,7 +65,7 @@
 
 @media (min-width: 768px) {
     .wrapper {
-        .customRow {
+        .goalsRow {
             width: 90%;
             .accordionColumn {                
                 padding-left: 80px;
