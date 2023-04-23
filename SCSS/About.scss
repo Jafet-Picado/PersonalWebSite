@@ -1,13 +1,8 @@
-@import "../SCSS/General.scss"; 
-
-@import "../SCSS/paragraph.scss";
-
 .wrapper {
-    flex: 1;
-
-    .informationParagraph {
+    .aboutParagraph {
         h5 {
-            > img {
+            text-align: center;
+            > img {                
                 height: 50px;
             }
         }
