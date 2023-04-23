@@ -1,43 +1,17 @@
-.informationParagraph {
-    justify-items: center;
-    text-align: center;
-
-    h5 {
-        padding: 5px;
-    }
-
-    h6 {
-        font-size: 18px;
-        font-weight: bold;
-    }
-
-    p {
-        font-size: 20px;
-        padding: 5px;
-    }
-
-    a {
-        font-size: 18px;
-        padding: 10px;
-    }
-
-    .justifiedParagraph {
-        text-align: justify;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
+.justifiedParagraph {
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 @media (min-width: 768px) {
-    .informationParagraph {
-        .justifiedParagraph {
-            text-align: justify;
-            width: 60%;
-            padding-left: 15px;
-            padding-right: 15px;
-            margin-left: auto;
-            margin-right: auto;
-            text-indent: 40px;
-        }
-    }
+    .justifiedParagraph {
+        text-align: justify;
+        width: 60%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        text-indent: 40px;
+    }    
 }
