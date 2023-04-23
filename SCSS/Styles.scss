@@ -1,0 +1,33 @@
+//Shared styles
+
+$black: #333;
+
+$navbar-brand-font-size: 1.25rem;
+
+$accordion-button-active-bg: $black;
+$accordion-button-active-color: #fff;
+$accordion-icon-active-color: $black;
+$accordion-button-focus-box-shadow: #fff;
+$accordion-icon-active-color: #fff;
+ 
+$list-group-border-color: rgba(0, 0, 0, .1);
+
+@import "../Bootstrap/node_modules/bootstrap/scss/bootstrap";
+
+@import "./Colors.scss";
+
+@import "./paragraph.scss";
+
+@import "./General.scss";
+
+//Pages styles
+ 
+@import "./index.scss";
+@import "./Goals.scss";
+@import "./WhyIS.scss";
+@import "./Courses.scss";
+@import "./People.scss";
+@import "./Downloads.scss";
+@import "./Hobbies.scss";
+@import "./About.scss";
+@import "./Contact.scss";
