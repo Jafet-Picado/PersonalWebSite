@@ -1,11 +1,10 @@
-@import "../SCSS/General.scss";
-
-@import "../SCSS/paragraph.scss";
-
-.wrapper {
-    flex: 1;
-
-    img {
-        height: 50px;
-    }
+.wrapper {    
+    .informationParagraph {
+        .customIcon {      
+            display:block;
+            margin:auto;      
+            height: 60px;
+            padding-bottom: 10px;
+        }
+    }    
 }
