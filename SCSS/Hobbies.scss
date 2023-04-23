@@ -1,9 +1,4 @@
-@import "../SCSS/General.scss";
-
 .wrapper {
-    @include make-container();
-    flex: 1;
-
     #accordionHobbies {
         @extend .accordion;
         padding: 0 0 40px;
