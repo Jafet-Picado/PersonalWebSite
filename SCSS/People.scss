@@ -1,21 +1,16 @@
-@import "../SCSS/General.scss";
-
-.wrapper {
-    @include make-container();
-    flex: 1;
-
+.wrapper {        
     > h1 {
         img {
             height: 50px;
         }
     }
 
-    >div {        
+    .peopleRow {        
         @extend .row,
                 .row-cols-1,
                 .row-cols-md-3,
                 .g-4;
-        padding: 10px 0 30px;
+        padding: 10px 10px 30px 10px;
  
         > div {  
 
@@ -44,9 +39,9 @@
 
 @media (min-width: 768px) {
     .wrapper {
-        >div {
+        .peopleRow {
             justify-content: center;
-
+            padding: 10px 15px 30px 15px;
             > div {
                 .person-Card {
                     height: 350px;
