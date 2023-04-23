@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-    <base href="/~ec05977" />
+    <base href="/~ec05977/" />
     <title><!--#echo var="TITULO" --></title>
     <link rel="stylesheet" href="CSS/Styles.css">
 </head>
@@ -13,7 +13,7 @@
     <header class="navigationHeader">
         <nav class="customNavbar">
             <div class="navbarContainer">                
-                <a class="website_brand" href="index.html">
+                <a class="website_brand" href="index.shtml">
                     <img src="images/logo.png" alt="Logo">               
                     Jafet - WebSite
                 </a>
@@ -24,30 +24,30 @@
                 <div id="navbarNav">
                     <ul class="navbarMenu">
                         <li>                            
-                            <a aria-current="page" href="index.html">Inicio</a>                            
+                            <a aria-current="page" href="index.shtml">Inicio</a>                            
                         </li>
                         <li>                            
-                            <a href="HTML/Goals.html">Objetivos</a>                            
+                            <a href="HTML/Goals.shtml">Objetivos</a>                            
                         </li>
                         <li class="navDropdown">
                             <a id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Computación
+                                Computaci&oacuten
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">                            
-                                <li><a href="HTML/WhyIS.html">¿Por qué computación?</a></li>
-                                <li><a href="HTML/Courses.html">Cursos preferidos</a></li>
-                                <li><a href="HTML/People.html">Mis profesores y compañeros</a></li>
-                                <li><a href="HTML/Downloads.html">Descargas</a></li>                                
+                                <li><a href="HTML/WhyIS.shtml">&#191Por qu&eacute computaci&oacuten&#63</a></li>
+                                <li><a href="HTML/Courses.shtml">Cursos preferidos</a></li>
+                                <li><a href="HTML/People.shtml">Mis profesores y compa&ntildeeros</a></li>
+                                <li><a href="HTML/Downloads.shtml">Descargas</a></li>                                
                             </ul>
                         </li>
                         <li>                            
-                            <a href="HTML/Hobbies.html">Pasatiempos</a>                            
+                            <a href="HTML/Hobbies.shtml">Pasatiempos</a>                            
                         </li>
                         <li>                            
-                            <a href="HTML/About.html">Acerca de este sitio</a>                            
+                            <a href="HTML/About.shtml">Acerca de este sitio</a>                            
                         </li>
                         <li>                            
-                            <a href="HTML/Contact.html">Contacto</a>                            
+                            <a href="HTML/Contact.shtml">Contacto</a>                            
                         </li>
                     </ul>
                 </div>
