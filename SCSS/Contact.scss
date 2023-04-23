@@ -1,21 +1,29 @@
-@import "../SCSS/General.scss";
-
-@import "../SCSS/paragraph.scss";
-
 .wrapper {
-    flex: 1;  
-
-    .informationParagraph {
+    .contactInformation {
+        text-align: center;
+        justify-items: center;
         p {
+            font-size: 20px;
             > img {
                 height: 40px;
             }
 
             a {
+                font-size: 18px;
+                padding: 10px;
                 > img {
                     height: 50px;
                 }
             }
-        }      
+        }
+
+        h5 {
+            padding: 5px;
+        }
+        
+        h6 {
+            font-weight: bold;
+            font-size: 18px;
+        }    
     }
 }
