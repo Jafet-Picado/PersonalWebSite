@@ -4851,7 +4851,7 @@ textarea.form-control-lg {
 .list-group, .wrapper .customList {
   --bs-list-group-color: #212529;
   --bs-list-group-bg: #fff;
-  --bs-list-group-border-color: #333;
+  --bs-list-group-border-color: rgba(0, 0, 0, 0.1);
   --bs-list-group-border-width: 1px;
   --bs-list-group-border-radius: 0.375rem;
   --bs-list-group-item-padding-x: 1rem;
@@ -11070,7 +11070,7 @@ body {
   font-style: oblique;
 }
 
-.wrapper h1 > img, .wrapper .h1 > img {
+.wrapper .goalsTitle > img {
   height: 50px;
 }
 .wrapper .goalsRow {
@@ -11123,11 +11123,15 @@ body {
   }
 }
 .wrapper .informationParagraph .customIcon {
-  height: 50px;
+  display: block;
+  margin: auto;
+  height: 60px;
+  padding-bottom: 10px;
 }
 
 .wrapper .courses-group {
   text-align: center;
+  padding: 0 10px 0 10px;
 }
 .wrapper .courses-group .course-card > img {
   height: 300px;
@@ -11141,14 +11145,14 @@ body {
 }
 @media (min-width: 768px) {
   .wrapper .courses-group {
-    padding: 0 0 40px;
+    padding: 0 15px 40px 15px;
   }
 }
 .wrapper > h1 img, .wrapper > .h1 img {
   height: 50px;
 }
 .wrapper .peopleRow {
-  padding: 10px 0 30px;
+  padding: 10px 10px 30px 10px;
 }
 .wrapper .peopleRow > div .person-Card {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -11161,6 +11165,7 @@ body {
 @media (min-width: 768px) {
   .wrapper .peopleRow {
     justify-content: center;
+    padding: 10px 15px 30px 15px;
   }
   .wrapper .peopleRow > div .person-Card {
     height: 350px;
@@ -11170,6 +11175,7 @@ body {
   text-align: center;
 }
 .wrapper .customList .customList-item {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   margin-left: auto;
   margin-right: auto;
   width: 80%;
@@ -11221,6 +11227,9 @@ body {
     font-size: 18px;
     padding: 0 20px;
   }
+}
+.wrapper .aboutParagraph h5, .wrapper .aboutParagraph .h5 {
+  text-align: center;
 }
 .wrapper .aboutParagraph h5 > img, .wrapper .aboutParagraph .h5 > img {
   height: 50px;
