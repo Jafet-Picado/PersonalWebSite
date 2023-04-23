@@ -1,11 +1,10 @@
 <!--#set var="TITULO" value="Acerca de" -->
-<!--#set var="OPTION" value="8" -->
-<!--#include virtual="Components/Header.shtml" -->
+<!--#include virtual="../Components/Header.shtml" -->
 <div class="wrapper">
     <h1>Acerca de</h1>
-    <div class="informationParagraph">
+    <div class="aboutParagraph">
         <h5>
-            <img src="../images/spiderman.png">
+            <img src="images/spiderman.png">
             Acerca del creador:
         </h5>
         <p class="justifiedParagraph">
@@ -14,7 +13,7 @@
             y mi enfásis elegido es Ingeniería de Software.
         </p>
         <h5>
-            <img src="../images/flash.png">
+            <img src="images/flash.png">
             Acerca de este sitio:
         </h5>
         <p class="justifiedParagraph">
@@ -25,4 +24,4 @@
         </p>
     </div>
 </div>
-<!--#include virtual="Components/Footer.shtml" -->
+<!--#include virtual="../Components/Footer.shtml" -->

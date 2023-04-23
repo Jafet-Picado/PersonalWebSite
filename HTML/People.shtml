@@ -1,12 +1,11 @@
 <!--#set var="TITULO" value="Profesores y Compañeros" -->
-<!--#set var="OPTION" value="5" -->
-<!--#include virtual="Components/Header.shtml" -->
+<!--#include virtual="../Components/Header.shtml" -->
 <div class="wrapper">
     <h1>
-        <img src="../images/profesor_x.png">
+        <img src="images/profesor_x.png">
         Mis profesores
     </h1>
-    <div>
+    <div class="peopleRow">
         <div class="col">
             <div class="person-Card">
                 <div class="card-body">
@@ -70,10 +69,10 @@
         </div>
     </div>
     <h1>
-        <img src="../images/cyclop.png">
+        <img src="images/cyclop.png">
         Mis compañeros
     </h1>
-    <div>
+    <div class="peopleRow">
         <div class="col">
             <div class="person-Card">
                 <div class="person-Card-body">
@@ -116,4 +115,4 @@
         </div>
     </div>
 </div>
-<!--#include virtual="Components/Footer.shtml" -->
+<!--#include virtual="../Components/Footer.shtml" -->

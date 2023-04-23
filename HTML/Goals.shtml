@@ -1,19 +1,18 @@
 <!--#set var="TITULO" value="Mis objetivos" -->
-<!--#set var="OPTION" value="2" -->
-<!--#include virtual="Components/Header.shtml" -->
+<!--#include virtual="../Components/Header.shtml" -->
 <div class="wrapper">
-    <h1>
-        <img src="../images/attilan_symbol.png" class="customIcon">
+    <h1 class="goalsTitle">
+        <img src="images/attilan_symbol.png">
         Mis Objetivos
     </h1>
-    <div class="customRow">
+    <div class="goalsRow">
         <div class="accordionColumn">
             <div id="accordionGoals">
                 <div class="accordion_item">
                     <h2 id="headingOne">
                         <button class="collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                             aria-expanded="false" aria-controls="collapseOne">
-                            <img src="../images/spiderman_goals.png">
+                            <img src="images/spiderman_goals.png">
                             Objetivo #1
                         </button>
                     </h2>
@@ -33,7 +32,7 @@
                     <h2 id="headingTwo">
                         <button class="collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                             aria-expanded="false" aria-controls="collapseTwo">
-                            <img src="../images/spiderman_goals.png">
+                            <img src="images/spiderman_goals.png">
                             Objetivo #2
                         </button>
                     </h2>
@@ -54,7 +53,7 @@
                     <h2 id="headingThree">
                         <button class="collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            <img src="../images/spiderman_goals.png">
+                            <img src="images/spiderman_goals.png">
                             Objetivo #3
                         </button>
                     </h2>
@@ -74,7 +73,7 @@
                     <h2 id="headingFour">
                         <button class="collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
                             aria-expanded="false" aria-controls="collapseFour">
-                            <img src="../images/spiderman_goals.png">
+                            <img src="images/spiderman_goals.png">
                             Objetivo #4
                         </button>
                     </h2>
@@ -93,8 +92,8 @@
             </div>
         </div>
         <div class="imageColumn">
-            <img src="../images/black_bolt.png">
+            <img src="images/black_bolt.png">
         </div>
     </div>
 </div>
-<!--#include virtual="Components/Footer.shtml" -->
+<!--#include virtual="../Components/Footer.shtml" -->

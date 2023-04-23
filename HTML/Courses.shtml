@@ -1,14 +1,13 @@
 <!--#set var="TITULO" value="Cursos preferidos" -->
-<!--#set var="OPTION" value="4" -->
-<!--#include virtual="Components/Header.shtml" -->
+<!--#include virtual="../Components/Header.shtml" -->
 <div class="wrapper">
     <h1>
-        <img src="../images/iron_man.png" class="customIcon">
+        <img src="images/iron_man.png" class="customIcon">
         Mis cursos preferidos
     </h1>
     <div class="courses-group">
         <div class="course-card">
-            <img src="../images/programming.jpg">
+            <img src="images/programming.jpg">
             <div class="course-card-body">
                 <h5>Programación I</h5>
                 <p>
@@ -26,7 +25,7 @@
             </div>
         </div>
         <div class="course-card">
-            <img src="../images/hci.jpg">
+            <img src="images/hci.jpg">
             <div class="course-card-body">
                 <h5>Interacción Humano-Computador</h5>
                 <p>
@@ -44,7 +43,7 @@
             </div>
         </div>
         <div class="course-card">
-            <img src="../images/IS.jpg">
+            <img src="images/IS.jpg">
             <div class="course-card-body">
                 <h5>Ingeniería de Software</h5>
                 <p>
@@ -63,4 +62,4 @@
         </div>
     </div>
 </div>
-<!--#include virtual="Components/Footer.shtml" -->
+<!--#include virtual="../Components/Footer.shtml" -->

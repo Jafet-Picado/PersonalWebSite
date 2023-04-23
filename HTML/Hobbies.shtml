@@ -1,6 +1,5 @@
 <!--#set var="TITULO" value="Pasatiempos" -->
-<!--#set var="OPTION" value="7" -->
-<!--#include virtual="Components/Header.shtml" -->
+<!--#include virtual="../Components/Header.shtml" -->
 <div class="wrapper">
     <h1>
         Mis pasatiempos
@@ -10,7 +9,7 @@
             <h2 class="accordionHobbies-header" id="headingOne">
                 <button class="collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                     aria-expanded="false" aria-controls="collapseOne">
-                    <img src="../images/gow.png">
+                    <img src="images/gow.png">
                     Videojuegos
                 </button>
             </h2>
@@ -26,19 +25,19 @@
                     <div class="hobby">
                         <a class="website_name navbar-brand" href="https://youtu.be/R-gvdi-rmJY">
                             Batman: Arkham Knight
-                            <img src="../images/youtube.png" class="hobbyIcon">
+                            <img src="images/youtube.png" class="hobbyIcon">
                         </a>
                         <a class="website_name navbar-brand" href="https://youtu.be/vtFhDrMIZjE">
                             God of War: Ragnarök
-                            <img src="../images/youtube.png" class="hobbyIcon">
+                            <img src="images/youtube.png" class="hobbyIcon">
                         </a>
                         <a class="website_name navbar-brand" href="https://youtu.be/rXMX4YJ7Lks">
                             Sekiro
-                            <img src="../images/youtube.png" class="hobbyIcon">
+                            <img src="images/youtube.png" class="hobbyIcon">
                         </a>
                         <a class="website_name navbar-brand" href="https://youtu.be/q4GdJVvdxss ">
                             Spider-Man
-                            <img src="../images/youtube.png" class="hobbyIcon">
+                            <img src="images/youtube.png" class="hobbyIcon">
                         </a>
                     </div>
                 </div>
@@ -48,7 +47,7 @@
             <h2 class="accordionHobbies-header" id="headingTwo">
                 <button class="collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                     aria-expanded="false" aria-controls="collapseTwo">
-                    <img src="../images/avatar.jpg">
+                    <img src="images/avatar.jpg">
                     Películas y Series
                 </button>
             </h2>
@@ -64,23 +63,23 @@
                     <div class="hobby">
                         <a class="website_name navbar-brand" href="https://youtu.be/5PSNL1qE6VY">
                             Avatar
-                            <img src="../images/youtube.png" class="hobbyIcon">
+                            <img src="images/youtube.png" class="hobbyIcon">
                         </a>
                         <a class="website_name navbar-brand" href="https://youtu.be/IyZ0xetSb9s">
                             Avatar: The Last Airbender
-                            <img src="../images/youtube.png" class="hobbyIcon">
+                            <img src="images/youtube.png" class="hobbyIcon">
                         </a>
                         <a class="website_name navbar-brand" href="https://youtu.be/faJAT35j5Ss">
                             Brooklyn Nine-Nine
-                            <img src="../images/youtube.png" class="hobbyIcon">
+                            <img src="images/youtube.png" class="hobbyIcon">
                         </a>
                         <a class="website_name navbar-brand" href="https://youtu.be/FmXjNGVpXUc">
                             Captain America: The Winter Soldier
-                            <img src="../images/youtube.png" class="hobbyIcon">
+                            <img src="images/youtube.png" class="hobbyIcon">
                         </a>
                         <a class="website_name navbar-brand" href="https://youtu.be/vM-Bja2Gy04">
                             Zack Snyder's Justice League
-                            <img src="../images/youtube.png" class="hobbyIcon">
+                            <img src="images/youtube.png" class="hobbyIcon">
                         </a>
                     </div>
                 </div>
@@ -90,7 +89,7 @@
             <h2 class="accordionHobbies-header" id="headingThree">
                 <button class="collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
                     aria-expanded="false" aria-controls="collapseThree">
-                    <img src="../images/ptad.jpg">
+                    <img src="images/ptad.jpg">
                     Música
                 </button>
             </h2>
@@ -105,19 +104,19 @@
                     <div class="hobby">
                         <a href="https://open.spotify.com/artist/3Ri4H12KFyu98LMjSoij5V?si=1A06Nu1cRGW-w5076x6Ifw">
                             Bad Omens
-                            <img src="../images/spotify.png" class="hobbyIcon">
+                            <img src="images/spotify.png" class="hobbyIcon">
                         </a>
                         <a href="https://open.spotify.com/artist/1Ffb6ejR6Fe5IamqA5oRUF?si=GhZ_sZO-Rg6mUXc5VGoDWw">
                             Bring me the Horizon
-                            <img src="../images/spotify.png" class="hobbyIcon">
+                            <img src="images/spotify.png" class="hobbyIcon">
                         </a>
                         <a href="https://open.spotify.com/artist/20JZFwl6HVl6yg8a4H3ZqK?si=dLvgDwKBTRCY_ERebRdTNw">
                             Panic! At the Disco
-                            <img src="../images/spotify.png" class="hobbyIcon">
+                            <img src="images/spotify.png" class="hobbyIcon">
                         </a>
                         <a href="https://open.spotify.com/artist/0IB0VjX9NSrGX6PjCXGVcq?si=r8JIcaYxQvKtLxjuABADbA">
                             Raleigh Ritchie
-                            <img src="../images/spotify.png" class="hobbyIcon">
+                            <img src="images/spotify.png" class="hobbyIcon">
                         </a>
                     </div>
                 </div>
@@ -127,7 +126,7 @@
             <h2 class="accordionHobbies-header" id="headingFour">
                 <button class="collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
                     aria-expanded="false" aria-controls="collapseFour">
-                    <img src="../images/mistborn.jpg">
+                    <img src="images/mistborn.jpg">
                     Libros
                 </button>
             </h2>
@@ -142,15 +141,15 @@
                     <div class="hobby">
                         <a href="https://a.co/d/eyO9Ny5">
                             Mistborn: The Final Empire
-                            <img src="../images/amazon.png" class="hobbyIcon">
+                            <img src="images/amazon.png" class="hobbyIcon">
                         </a>
                         <a href="https://a.co/d/b3D45R1">
                             The Lord of the Rings: The Return of the King
-                            <img src="../images/amazon.png" class="hobbyIcon">
+                            <img src="images/amazon.png" class="hobbyIcon">
                         </a>
                         <a href="https://a.co/d/4AaqeCa">
                             The Silmarillion
-                            <img src="../images/amazon.png" class="hobbyIcon">
+                            <img src="images/amazon.png" class="hobbyIcon">
                         </a>
                     </div>
                 </div>
@@ -158,4 +157,4 @@
         </div>
     </div>
 </div>
-<!--#include virtual="Components/Footer.shtml" -->
+<!--#include virtual="../Components/Footer.shtml" -->

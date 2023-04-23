@@ -1,12 +1,11 @@
 <!--#set var="TITULO" value="Contacto" -->
-<!--#set var="OPTION" value="9" -->
-<!--#include virtual="Components/Header.shtml" -->
+<!--#include virtual="../Components/Header.shtml" -->
 <div class="wrapper">
     <h1>Contacto</h1>
-    <div class="informationParagraph">
+    <div class="contactInformation">
         <h5>Creador:</h5>
         <p>
-            <img src="../images/superman.png">
+            <img src="images/superman.png">
             Jafet Picado Quirós
         </p>
         <h5>Información de contacto:</h5>
@@ -17,12 +16,12 @@
         <p>
         <h6>Redes:</h6>
         <a href="https://github.com/Jafet-Picado">
-            <img src="../images/github.png">
+            <img src="images/github.png">
         </a>
         <a href="https://www.linkedin.com/in/JafetPQ/">
-            <img src="../images/linkedin.png">
+            <img src="images/linkedin.png">
         </a>
         </p>
     </div>
 </div>
-<!--#include virtual="Components/Footer.shtml" -->
+<!--#include virtual="../Components/Footer.shtml" -->
