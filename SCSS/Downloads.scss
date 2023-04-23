@@ -1,16 +1,11 @@
-@import "../SCSS/General.scss";
-
 .wrapper {
-    @include make-container();
-    flex: 1;
-
     .customList {
-        @extend .list-group;
-
+        @extend .list-group;        
         text-align: center;
 
         .customList-item {
             @extend .list-group-item;
+            @include my-custom-shadow();
             margin-left: auto;
             margin-right: auto;
             width: 80%;
