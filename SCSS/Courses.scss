@@ -1,12 +1,8 @@
-@import "../SCSS/General.scss";
-
 .wrapper {
-    @include make-container();
-    flex: 1;
-
-    .courses-group {
+    .courses-group {        
         @extend .card-group;
         text-align: center;
+        padding: 0 10px 0 10px;
 
         .course-card {
             @extend .card;
@@ -45,7 +41,7 @@
 @media (min-width: 768px) {
     .wrapper {
         .courses-group {
-            padding: 0 0 40px;
+            padding: 0 15px 40px 15px;
         }
     }
 }
