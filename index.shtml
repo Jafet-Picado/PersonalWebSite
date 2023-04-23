@@ -1,0 +1,10 @@
+<!--#set var="TITULO" value="Inicio" -->
+<!--#include virtual="Components/Header.shtml" -->
+<div class="indexBody">
+    <div class="indexCard">
+        <h5 class="card-title">Sitio Web Personal</h5>
+        <br>
+        <p class="card-text">Jafet Picado Quir&oacutes C05977 - Primer proyecto</p>
+    </div>
+</div>
+<!--#include virtual="Components/Footer.shtml" -->
